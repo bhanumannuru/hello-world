@@ -35,7 +35,7 @@ pipeline{
             }
         }
         
-        stage('Docker Build'){
+        stage ('Docker Build') {
             steps{
                 script {
                     sh "docker build -t bhanumannuru/hello-world:${DOCKER_TAG} ."
