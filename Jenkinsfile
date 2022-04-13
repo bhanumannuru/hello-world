@@ -4,7 +4,7 @@ pipeline{
       maven 'MAVEN_3.3.9'
     }
     environment {
-      DOCKER_TAG = "getVersion()"
+      DOCKER_TAG = "getVersion ()"
     }
 
     stages {
